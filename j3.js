@@ -457,7 +457,7 @@ option = {
         name: 'Punch Card',
         type: 'scatter',
         symbolSize: function (val) {
-            return  (val[2] - 450)*40/423;
+            return  (val[2] - 450)*30/423;
         },
         data: data,
         animationDelay: function (idx) {
